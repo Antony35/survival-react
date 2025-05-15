@@ -10,7 +10,7 @@ const __dirname = dirname(__filename)
 
 // https://vite.dev/config/
 export default defineConfig({
-    base: '/survival-react/',
+  base: '/survival-react/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {

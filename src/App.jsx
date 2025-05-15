@@ -9,7 +9,7 @@ function App() {
   const version = '0.0.1'
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/survival-react/">
       <Routes>
         <Route path="/" element={<Menu version={version} />} />
         <Route path="game" element={<Game />} />
