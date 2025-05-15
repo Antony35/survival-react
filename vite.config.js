@@ -11,10 +11,11 @@ const __dirname = dirname(__filename)
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/survival-react/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, 'src'),
+      '@': path.resolve(__dirname, './src'),
     },
   },
 })
